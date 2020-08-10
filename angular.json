@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "HomeoWeb"
+    }
+  },
+  "defaultProject": "HomeoWeb",
+  "cli": {
+    "analytics": "37e6342f-1729-4f55-a7e1-39f740cabb50"
+  }
 }
