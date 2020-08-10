@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    // justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.logo {
+    // color: white;
+    letter-spacing: 5px;
+    text-transform: Uppercase;
+    font-size: 20px;
+}
+
+.nav-items {
+    display: flex;
+    //background-color:red;
+    justify-content: space-around;
+    //width: 30%;
+    float: right;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 3px;
+    // font-weight: bold;
+    font-size: 15px;
+    float: right;
+}
+
+.nav-items li {
+    list-style: none;
+    float: right;
+}
