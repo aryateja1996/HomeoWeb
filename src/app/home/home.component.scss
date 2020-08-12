@@ -1,23 +1,30 @@
 @import "colors.scss";
-img {
-    height: 600px;
-    width: 100vw;
-}
-
-p {
-    justify-content: center;
-    margin-top: 30vh;
-}
-
 .row {
-    width: 100vw;
+    margin-top: 10px;
+    height: 700px;
 }
 
-example-card {
+.img-rounded {
+    height: 700px;
+    max-width: 100%;
+    border-radius: 0px 15px 15px 0px;
+    //for circlur view
+    //border-radius: 1000px;
+}
+
+.content {
+    text-align: center;
+    color: $text;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30vh;
+    font-weight: bold;
+    color: $dark;
+}
+
+.example-card {
+    margin-top: 30px;
     max-width: 400px;
-}
-
-.example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
 }
