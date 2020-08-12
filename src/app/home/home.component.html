@@ -1,29 +1,27 @@
-<!-- Slideshow container -->
-<div class="slideshow-container">
+<div class="row">
+    <div class="col-8" id="carousel">
 
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="img1.jpg" style="width:100%">
-        <div class="text">Caption Text</div>
+        <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide>
+                <img src="assets/1.jpg" class="img-rounded" alt="">
+            </ng-template>
+            <ng-template carouselSlide><img class="img-rounded" src="assets/2.jpg" alt=""></ng-template>
+            <ng-template carouselSlide><img class="img-rounded" src="assets/3.jpg" alt=""></ng-template>
+            <ng-template carouselSlide><img class="img-rounded" src="assets/4.jpg" alt=""></ng-template>
+            <ng-template carouselSlide><img class="img-rounded" src="assets/5.jpg" alt=""></ng-template>
+        </owl-carousel-o>
+    </div>
+    <div class="col-4">
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+            survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum
+        </p>
     </div>
 
-    <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="img2.jpg" style="width:100%">
-        <div class="text">Caption Two</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="img3.jpg" style="width:100%">
-        <div class="text">Caption Three</div>
-    </div>
-
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-<br>
+<div class="row">
+    <div class="col-12">
 
+    </div>
 </div>
