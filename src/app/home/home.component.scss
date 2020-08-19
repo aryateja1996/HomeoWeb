@@ -1,11 +1,12 @@
 @import "colors.scss";
 .row {
     margin-top: 10px;
-    height: 700px;
+    height: 800px;
+    width: 100vw;
 }
 
-.img-rounded {
-    height: 700px;
+.img-slide {
+    height: 800px;
     max-width: 100%;
     border-radius: 0px 15px 15px 0px;
     //for circlur view
@@ -25,6 +26,13 @@ h1 {
 }
 
 .example-card {
-    margin-top: 30px;
+    position: relative;
+    margin: 30px auto auto 10px;
     max-width: 400px;
+    border-radius: 5px;
+}
+
+.cards {
+    width: 100vw;
+    height: 100%;
 }
