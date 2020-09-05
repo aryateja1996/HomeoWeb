@@ -37,7 +37,7 @@ export class HomeComponent implements OnInit {
         items: 1
       }
     },
-    nav: true
+    nav: false
   }
  
 }

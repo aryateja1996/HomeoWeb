@@ -1,4 +1,5 @@
 @import "colors.scss";
+@import "responsive/480px.scss";
 
 /* The navigation bar */
 
@@ -12,7 +13,7 @@
     a {
         float: right;
         display: block;
-        text-align: center;
+        //text-align: center;
         // padding: 14px 16px;
         text-decoration: none;
         color: $text;

@@ -1,0 +1,44 @@
+@import "colors.scss";
+@media (max-width:480px) {
+    .navbar {
+        position: fixed;
+        overflow: visible;
+        h1 {
+            font-size: 15px;
+            float: left;
+            position: relative !important;
+            top: 0 !important;
+            left: 10%;
+        }
+        a {
+            font-size: 10px;
+        }
+    }
+    .img-slide {
+        height: 300px !important;
+        width: cover;
+    }
+    .row {
+        height: 300px !important;
+        width: cover;
+    }
+    .cards {
+        display: none;
+    }
+    h1 {
+        text-align: center !important;
+        position: relative;
+        margin: 0 !important;
+        left: 5%;
+        height: 100%;
+    }
+    .content {
+        margin: 5% !important;
+    }
+    #carousel {
+        height: 300px !important;
+    }
+    .owl-nav {
+        display: none !important;
+    }
+}
