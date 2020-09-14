@@ -1,26 +1,44 @@
 @import "colors.scss";
 @import "responsive/480px.scss";
-
-/* The navigation bar */
-
-.navbar {
-    overflow: hidden;
-    background-color: $navDark;
-    position: fixed;
-    top: 0;
+@import "responsive/768px.scss";
+header {
+    height: 100px;
     width: 100%;
-    z-index: 1000;
-    a {
-        float: right;
-        display: block;
-        //text-align: center;
-        // padding: 14px 16px;
-        text-decoration: none;
-        color: $text;
+    background: $navbar;
+    display: grid;
+    grid-template-columns: 1fr auto minmax(700px, 3fr);
+    .logo {
+        height: 80px;
+        width: 80px;
     }
-    h1 {
-        position: relative;
-        top: 10px;
-        color: $text;
+    .toggler {
+        display: none;
+    }
+    .burger {
+        display: none;
+    }
+    .nav {
+        display: flex;
+        grid-column: 3/4;
+        justify-content: flex-end;
+        align-items: center;
+        ul {
+            list-style: none;
+            display: flex;
+            position: fixed;
+            padding: 16px;
+            li {
+                margin-bottom: 0px;
+                margin-right: 16px;
+                a {
+                    color: $text;
+                    text-decoration: none;
+                }
+                a:hover {
+                    color: $hover;
+                    transition: ease-in .1s;
+                }
+            }
+        }
     }
 }

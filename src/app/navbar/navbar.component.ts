@@ -11,5 +11,11 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+   openSidebar() {
+    document.getElementById("mySidebar").style.display = "block";
+  }
+  
+  closeSidebar() {
+    document.getElementById("mySidebar").style.display = "none";
+  }
 }

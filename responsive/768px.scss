@@ -1,0 +1,10 @@
+@import "colors.scss";
+@media (max-width:780px) {
+    .navbar {
+        background-color: $text !important;
+    }
+    .img-slide {
+        border-radius: 0px !important;
+        height: 500px !important;
+    }
+}
