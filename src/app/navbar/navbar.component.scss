@@ -2,43 +2,31 @@
 @import "responsive/480px.scss";
 @import "responsive/768px.scss";
 header {
-    height: 100px;
-    width: 100%;
-    background: $navbar;
-    display: grid;
-    grid-template-columns: 1fr auto minmax(700px, 3fr);
-    .logo {
-        height: 80px;
-        width: 80px;
-    }
-    .toggler {
-        display: none;
-    }
-    .burger {
-        display: none;
-    }
+    //border-bottom: 1px solid $text;
+    height: 70px;
+    line-height: 70px;
+    // .logo {
+    //     width: 100px;
+    //     height: 100px;
+    // }
     .nav {
-        display: flex;
-        grid-column: 3/4;
-        justify-content: flex-end;
-        align-items: center;
-        ul {
-            list-style: none;
-            display: flex;
-            position: fixed;
-            padding: 16px;
-            li {
-                margin-bottom: 0px;
-                margin-right: 16px;
-                a {
-                    color: $text;
-                    text-decoration: none;
-                }
-                a:hover {
-                    color: $hover;
-                    transition: ease-in .1s;
-                }
-            }
+        float: right;
+        text-align: right;
+        margin: 0;
+        a {
+            text-decoration: none;
+            color: $text;
+            margin: 0 10px;
+            list-style: height 70px;
         }
+    }
+    label {
+        margin: 0 40px 0 0;
+        font-size: 26px;
+        list-style: height 70px;
+        display: none;
+    }
+    #toggler {
+        display: none;
     }
 }
